@@ -59,8 +59,6 @@ const char *idev_lockdownd_strerror(lockdownd_error_t errnum)
             return "SSL_ERROR";
         case LOCKDOWN_E_DICT_ERROR:
             return "DICT_ERROR";
-        case LOCKDOWN_E_NOT_ENOUGH_DATA:
-            return "NOT_ENOUGH_DATA";
         case LOCKDOWN_E_MUX_ERROR:
             return "MUX_ERROR";
         case LOCKDOWN_E_NO_RUNNING_SESSION:
